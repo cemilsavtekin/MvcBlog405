@@ -233,6 +233,11 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="themplate\about.html" />
+    <Content Include="themplate\contact.html" />
+    <Content Include="themplate\gulpfile.js" />
+    <Content Include="themplate\index.html" />
+    <Content Include="themplate\post.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -267,10 +272,21 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="themplate\.gitignore" />
+    <Content Include="themplate\.travis.yml" />
+    <Content Include="themplate\LICENSE" />
+    <Content Include="themplate\package-lock.json" />
+    <Content Include="themplate\package.json" />
+    <Content Include="themplate\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="themplate\" />
+    <Folder Include="themplate\css\" />
+    <Folder Include="themplate\img\" />
+    <Folder Include="themplate\js\" />
+    <Folder Include="themplate\mail\" />
+    <Folder Include="themplate\scss\" />
+    <Folder Include="themplate\vendor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

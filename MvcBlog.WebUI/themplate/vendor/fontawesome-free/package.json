@@ -17,12 +17,12 @@
     "fetchSpec": "5.7.0"
   },
   "_requiredBy": [
-    "/startbootstrap-clean-blog"
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.0.tgz",
   "_shasum": "d28fd6248837ae5142c567f7ff50605824207e34",
   "_spec": "@fortawesome/fontawesome-free@5.7.0",
-  "_where": "/Users/DANGER_DAVID/Sites/startbootstrap-themes-jekyll/startbootstrap-clean-blog-jekyll/node_modules/startbootstrap-clean-blog",
+  "_where": "/Users/DANGER_DAVID/Sites/startbootstrap-themes/startbootstrap-clean-blog",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
