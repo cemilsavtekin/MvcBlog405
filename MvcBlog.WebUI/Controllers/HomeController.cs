@@ -22,7 +22,7 @@ namespace MvcBlog.WebUI.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "İletişim Sayfası";
+            ViewBag.Message = "İletişim";
 
             return View();
         }
