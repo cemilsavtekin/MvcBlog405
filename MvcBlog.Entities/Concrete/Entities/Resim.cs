@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvcBlog.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace MvcBlog.Entities.Concrete.Entities
 {
     [Table("Resimler")]
-    public class Resim
+    public class Resim: IEntity
     {
         public int ResimID { get; set; }
         public string ResimUrl { get; set; }

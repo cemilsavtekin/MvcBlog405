@@ -1,0 +1,14 @@
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.Bussiness.dll.config
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.Bussiness.dll
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.Bussiness.pdb
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\EntityFramework.dll
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.DataAccess.dll
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.Entities.dll
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.DataAccess.pdb
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\MvcBlog.Entities.pdb
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\EntityFramework.xml
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\obj\Debug\MvcBlog.Bussiness.csprojResolveAssemblyReference.cache
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\obj\Debug\MvcBlog.Bussiness.dll
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Bussiness\obj\Debug\MvcBlog.Bussiness.pdb

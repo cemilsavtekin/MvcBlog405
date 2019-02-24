@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvcBlog.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvcBlog.Entities.Concrete.Account
 {
-    public class Role
+    public class Role:IEntity
     {
         public int RoleID { get; set; }
         public string RoleName { get; set; }

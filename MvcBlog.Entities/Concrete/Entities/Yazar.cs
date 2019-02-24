@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvcBlog.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace MvcBlog.Entities.Concrete.Entities
 {
     [Table("Yazarlar")]
-    public class Yazar
+    public class Yazar: IEntity
     {
         public int YazarID { get; set; }
         public string Ad { get; set; }

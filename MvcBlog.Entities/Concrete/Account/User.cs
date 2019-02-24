@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvcBlog.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 namespace MvcBlog.Entities.Concrete.Account
 {
     
-    public class User
+    public class User: IEntity
     {
         public int UserID { get; set; }
         public string Username { get; set; }
