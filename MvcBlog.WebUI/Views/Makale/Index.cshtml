@@ -1,0 +1,74 @@
+﻿@model IEnumerable<MvcBlog.Entities.Concrete.Entities.Makale>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table id="kategoriTablosu" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Kategori.KategoriAdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yazar.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Baslik)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Icerik)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YayinTarihi)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kategori.KategoriAdi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Yazar.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Baslik)
+                </td>
+                <td>
+                   @(item.Icerik.Length>100 ? item.Icerik.Substring(0,100)+"...": item.Icerik)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YayinTarihi)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.MakaleID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.MakaleID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.MakaleID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#kategoriTablosu').DataTable({
+                "language": {"url":"//cdn.datatables.net/plug-ins/1.10.19/i18n/Turkish.json"}
+            });
+        });
+    </script>
+    
+    }

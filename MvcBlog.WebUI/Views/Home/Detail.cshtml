@@ -1,0 +1,34 @@
+﻿@using MvcBlog.Entities.Concrete.Entities
+@model Makale
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_BlogLayout.cshtml";
+}
+
+<style>
+    #Yazar,#YayinTarih{
+        cursor:pointer;
+    }
+    #Yazar:hover,#YayinTarih:hover{
+        color:lightblue;
+    } 
+</style>
+
+
+<h1>@Model.Baslik</h1>
+
+<p>
+    @Model.Icerik
+</p>
+<a id="Yazar">@Model.Yazar.Ad @Model.Yazar.Soyad</a>
+<a id="YayinTarih">@Model.YayinTarihi.ToShortDateString()</a>
+@section Scripts{
+<script type="text/javascript">
+    $("#Yazar").click(function () {
+        alert("yazarın makalelerini getir");
+    });
+    $("#YayinTarih").click(function () {
+        alert("tarihteki makaleleri getir");
+    });
+</script>
+    }
