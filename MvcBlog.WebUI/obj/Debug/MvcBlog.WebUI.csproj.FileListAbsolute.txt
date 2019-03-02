@@ -77,7 +77,6 @@ C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\Microsoft.Owin.Se
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\obj\Debug\MvcBlog.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\obj\Debug\MvcBlog.WebUI.dll
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\obj\Debug\MvcBlog.WebUI.pdb
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\MvcBlog.Bussiness.dll
@@ -86,3 +85,4 @@ C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\MvcBlog.Entities.
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\MvcBlog.Bussiness.pdb
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\MvcBlog.DataAccess.pdb
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\bin\MvcBlog.Entities.pdb
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.WebUI\obj\Debug\MvcBlog.WebUI.csprojResolveAssemblyReference.cache

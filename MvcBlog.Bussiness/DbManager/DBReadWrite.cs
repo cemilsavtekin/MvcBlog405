@@ -22,6 +22,8 @@ namespace MvcBlog.Bussiness.DbManager
 
         public static void Update(TEntity entity)
         {
+            BlogContext blogContext = new BlogContext();
+            //blogContext.Set<TEntity>().Find()
             db.Update(entity);
         }
 

@@ -7,8 +7,8 @@ C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\bin\Debug\MvcBlo
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\bin\Debug\MvcBlog.Entities.pdb
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\obj\Debug\MvcBlog.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\obj\Debug\MvcBlog.DataAccess.dll
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\obj\Debug\MvcBlog.DataAccess.pdb
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\obj\Debug\MvcBlog.DataAccess.Migrations.first_migration.resources
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\obj\Debug\MvcBlog.DataAccess.csproj.GenerateResource.Cache
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.DataAccess\obj\Debug\MvcBlog.DataAccess.csprojResolveAssemblyReference.cache

@@ -1844,6 +1844,8 @@
     <Content Include="Content\scss\_post.scss" />
     <Content Include="Content\scss\_variables.scss" />
     <Content Include="Content\scss\clean-blog.scss" />
+    <Content Include="XMLFile1.xml" />
+    <Content Include="json.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1859,6 +1861,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\Utils.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="themplate\about.html" />
     <Content Include="themplate\contact.html" />

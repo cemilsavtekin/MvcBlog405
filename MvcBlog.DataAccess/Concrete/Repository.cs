@@ -42,7 +42,7 @@ namespace MvcBlog.DataAccess.Concrete
         }
 
         public void Update(TEntity entity)
-        {//hatalı denenecek
+        {
             var updatedEntity = context.Entry(entity);
             updatedEntity.State = EntityState.Modified;
 

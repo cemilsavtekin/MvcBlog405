@@ -42,16 +42,26 @@ namespace MvcBlog.WebUI.Controllers
             else
             {
                 var kat=DBReadWrite<Kategori>.GetEntity(x => x.KategoriID == kategori.KategoriID);
-                kat = kategori;
-
-
+                kat.KategoriAdi=kategori.KategoriAdi;
                 DBReadWrite<Kategori>.Update(kat);
             }
 
             return RedirectToAction("KategoriListesi");
         }
 
-
+        public ActionResult Delete(int? id)
+        {
+            if (id==null)
+            {
+                return new HttpNotFoundResult();
+            }
+            else
+            {
+                var kategori= DBReadWrite<Kategori>.GetEntity(x => x.KategoriID == id);
+                DBReadWrite<Kategori>.Delete(kategori);
+                return Json(new { success = true }, JsonRequestBehavior.AllowGet);
+            }
+        }
 
     }
 }

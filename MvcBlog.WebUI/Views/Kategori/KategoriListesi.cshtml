@@ -11,7 +11,7 @@
     @Html.ActionLink("Yeni Kategori Ekle", "Create", null, new {@class="btn btn-primary"})
 </p>
 
-<table class="table table-striped table-hover table-bordered">
+<table id="kategoriTable" class="table table-striped table-hover table-bordered">
     <caption>Kategoriler</caption>
     <thead>
         <tr>
@@ -29,10 +29,32 @@
                 <td>@Html.DisplayFor(modelItem=>item.KategoriAdi)</td>
                 <td>
                     @Html.ActionLink("Düzenle", "Create", new { id = item.KategoriID }, new { @class = "btn btn-warning btn-sm" })
-                    @Html.ActionLink("Sil", "Delete", new { id = item.KategoriID }, new { @class = "btn btn-danger btn-sm" })
+                    <a class="btn btn-danger btn-sm silinecekKtg" data-id="@item.KategoriID">Sil</a>
+                   @* @Html.ActionLink("Sil", "Delete", new { id = item.KategoriID }, new { @class = "btn btn-danger btn-sm" })*@
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+
+@section Scripts{
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("#kategoriTable .silinecekKtg").on("click", function () {
+            var btn = $(this); 
+            var id=btn.data("id");
+            var postID={id:id};
+            AjaxPost("Delete/", JSON.stringify(postID), function (data) {
+                if (data.success) {
+                    btn.parent().parent().remove();
+                }
+            }, function () { alert("silinemedi")});
+
+            
+        });
+    });
+</script>
+}
+
 
