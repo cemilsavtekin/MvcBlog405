@@ -200,6 +200,7 @@
     <Compile Include="Controllers\KategoriController.cs" />
     <Compile Include="Controllers\MakaleController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SecurityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -208,6 +209,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ViewModels\MakaleViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityRoleProvider.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +217,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\clean-blog.css" />
     <Content Include="Content\css\clean-blog.min.css" />
+    <Content Include="Content\css\LoginStyles.css" />
     <Content Include="Content\img\about-bg.jpg" />
     <Content Include="Content\img\contact-bg.jpg" />
     <Content Include="Content\img\home-bg.jpg" />
@@ -3547,6 +3550,7 @@
     <Content Include="Views\Makale\Index.cshtml" />
     <Content Include="Views\Shared\_BlogLayout.cshtml" />
     <Content Include="Views\Home\Detail.cshtml" />
+    <Content Include="Views\Security\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

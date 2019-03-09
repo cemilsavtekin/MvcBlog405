@@ -2,3 +2,4 @@ C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Entities\bin\Debug\MvcBlog.
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Entities\bin\Debug\MvcBlog.Entities.pdb
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Entities\obj\Debug\MvcBlog.Entities.dll
 C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Entities\obj\Debug\MvcBlog.Entities.pdb
+C:\Users\Zümra\Desktop\405ClassApps\MvcBlog\MvcBlog.Entities\obj\Debug\MvcBlog.Entities.csprojResolveAssemblyReference.cache

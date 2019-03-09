@@ -11,11 +11,14 @@ using MvcBlog.Entities.Concrete.Entities;
 
 namespace MvcBlog.WebUI.Controllers
 {
+    //[Authorize]
     public class MakaleController : Controller
     {
         private BlogContext db = new BlogContext();
 
         // GET: Makale
+       // [AllowAnonymous]//herkese açılır
+       [Authorize(Roles ="Admin,User")]
         public ActionResult Index()
         {
             var makaleler = db.Makaleler.Include(m => m.Kategori).Include(m => m.Yazar);
@@ -38,6 +41,7 @@ namespace MvcBlog.WebUI.Controllers
         }
 
         // GET: Makale/Create
+       [Authorize(Roles ="Admin")]
         public ActionResult Create()
         {
             ViewBag.KategoriID = new SelectList(db.Kategoriler, "KategoriID", "KategoriAdi");
